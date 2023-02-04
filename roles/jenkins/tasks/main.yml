@@ -1,4 +1,4 @@
 - name: create include tasks
   ansible.builtin.include_tasks: pipeline.yml
   loop:
-    - catalogue
+    - frontend
