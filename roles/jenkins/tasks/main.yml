@@ -6,7 +6,7 @@
     user: admin
     password: admin123
   loop:
-    -CIPipelines
+    - CIPipelines
 
 - name: create include tasks
   ansible.builtin.include_tasks: pipeline.yml
